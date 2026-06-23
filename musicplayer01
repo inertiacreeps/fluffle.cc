@@ -1,0 +1,62 @@
+<style>
+
+lol {
+}
+lol, .img2 { 
+position: relative;
+left: -11px;
+width: 45px;
+height: 45px;
+background-color: #PUTHEXCOLORHERE;
+color: #hexcolor;
+z-index: 999;
+border: 1px dashed #PUTHEXCOLORHERE;
+filter: drop-shadow(0px 0px 0.1em orange);
+box-shadow: inset 13px 0px 6px -10px rgb(191 117 149 / 56%), inset -13px 0px 6px -10px rgb(191 117 149 / 56%), inset 0px 13px 6px -10px #ffffff, inset 0px -13px 6px -10px rgb(191 117 149 / 38%);
+border-radius: 3px;
+}
+ 
+.img1 { 
+position: relative;
+left: -35px;
+z-index: 800;
+border: 1px dotted #PUTHEXCOLORHERE;
+border-radius: 100%;
+filter: drop-shadow(0px 0px 0.1em #000);
+-webkit-animation: spin 2s linear infinite;
+-webkit-animation:spin 4s linear infinite;
+-moz-animation:spin 4s linear infinite;
+animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+100% {
+-webkit-transform: rotate(360deg);
+transform:rotate(360deg);
+}
+}
+.img1:hover {
+-webkit-animation: pop 0.3s ease;
+}
+
+</style>
+
+
+<body>
+
+<div id="lol"><img class="img2"src="PUTALBUMCOVERURLHERE"><img class="img1" src="https://file.garden/afKpytqJ7gfLH6Yd/cd" width="auto" height="45px"></div>
+<script>
+document.getElementById("lol").onclick = function() {
+var audio = document.getElementById("audio");
+if (audio.paused) audio.play();
+else audio.pause();
+};
+&lt;/script&gt;
+<audio id="audio" src="PUTAUDIOURLHERE"></audio>
+
+</body>
