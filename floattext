@@ -1,0 +1,27 @@
+<style>
+
+#float {
+text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;
+ font-style: italic;
+ font-size:2em;
+ font-weight:bold; 
+ color: #fff;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+ 
+</style>
+
+<div id="float">
+
+PUTTEXTHERE
+
+</div>
