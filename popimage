@@ -1,0 +1,32 @@
+<style>
+
+#whitespace {
+  display: inline-block;
+
+  width:20%;
+  height:auto;
+  animation: pop 1s ease-in-out infinite alternate;
+  border: 3px transparent;
+  overflow: hidden;
+}
+#whitespace img {
+  display: block;
+   width:100%;
+  height:auto;
+  
+  }
+ 
+@keyframes
+pop {
+from { transform:scale(0.95) }
+50% { transform:scale(1) }
+to { transform:scale(0.95) }
+}
+
+</style>
+
+<div id="whitespace">
+
+<img src="PUTIMAGEURLHERE">
+
+</div>
