@@ -1,0 +1,23 @@
+<style>
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.col {
+    flex: 1;
+}
+
+
+.image {
+    text-align:center;
+width: 100px;
+height: 100px;
+}
+
+</style>
+
+
+<div class="row"><div class="col"><img src="PUTIMAGEURLHERE" alt="PUTALTHERE"></div> <div class="col"><img src="PUTIMAGEURLHERE" alt="PUTALTHERE"></div> <div class="col"><img src="PUTIMAGEURLHERE" alt="PUTALTHERE"></div>
