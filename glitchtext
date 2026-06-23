@@ -1,0 +1,45 @@
+<style>
+
+#glitch {}
+
+#glitch {
+    font-size:2em ;
+    animation: glitch-1 2s infinite linear;
+}
+
+@keyframes glitch-1 {
+    0%,
+    12%,
+    15%,
+    52%,
+    55%,
+    82%,
+    85%,
+    100% {
+        opacity: 1;
+        transform: scaleX(1) scaleY(1);
+    }
+    13% {
+        opacity: .8;
+        transform: scaleY(2);
+        color: #fff;
+    }
+    53% {
+        opacity: .8;
+        transform: scaleX(.7);
+        color: #000;
+    }
+    83% {
+        opacity: 8;
+        transform: rotate(-10deg);
+        color: #fff;
+    }
+}
+
+</style>
+
+<div id="glitch">
+
+PUTTEXTHERE
+
+</div>
