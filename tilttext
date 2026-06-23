@@ -1,0 +1,19 @@
+<style>
+
+#tilt {
+text-align: center;
+animation: floaty 1s infinite alternate;
+}
+
+@keyframes floaty {
+from { transform: rotate(-5deg); }
+to { transform: rotate(5deg); }
+}
+
+</style>
+
+<div id="tilt">
+
+PUTTEXTHERE
+
+</div>
