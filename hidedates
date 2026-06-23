@@ -1,0 +1,8 @@
+<style>
+
+.flex.flex_col.gap-1.items-end.fade span:nth-child(2), .flex.flex_col.gap-1.items-end.fade span:nth-child(3){
+display: none !important;
+
+}
+
+</style>
