@@ -6,27 +6,25 @@ lol {
 }
 lol, .img2 { 
 position: relative;
-margin-top: 10px;
-left: 178px;
+left: -11px;
 width: 45px;
 height: 45px;
 background-color: transparent;
 color: black;
 z-index: 999;
 border: 1px solid transparent;
-filter: drop-shadow(0px 0px 0.1em black);
-box-shadow: inset 13px 0px 6px -10px rgb(191 117 149 / 56%), inset -13px 0px 6px -10px rgb(191 117 149 / 56%), inset 0px 13px 6px -10px #000000, inset 0px -13px 6px -10px rgb(191 117 149 / 38%);
 border-radius: 0px;
+filter: drop-shadow(0px 0px 0.1em #ababab);
+box-shadow: inset 13px 0px 6px -10px rgb(0 0 0 / 56%), inset -13px 0px 6px -10px rgb(0 0 0 / 56%), inset 0px 13px 6px -10px black, inset 0px -13px 6px -10px rgb(0 0 0 / 38%);
 }
  
 .img1 { 
 position: relative;
-left: 112px;
-margin-top: 10px;
+left: -35px;
 z-index: 800;
 border: 1px solid transparent;
 border-radius: 100%;
-filter: drop-shadow(0px 0px 0.1em #000);
+filter: drop-shadow(0px 0px 0.1em #ababab);
 -webkit-animation: spin 2s linear infinite;
 -webkit-animation:spin 4s linear infinite;
 -moz-animation:spin 4s linear infinite;
