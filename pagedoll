@@ -1,5 +1,5 @@
 <body>
 
-<img src="PUTIMAGEURLHERE" style="max-height: 300px; position: fixed; right: 10px; bottom: 10px; z-index: 100;">
+<img src="PUTIMAGEURLHERE" style="max-width: 25%; position: fixed; right: 10px; bottom: 10px; z-index: 100;">
 
 </body>
